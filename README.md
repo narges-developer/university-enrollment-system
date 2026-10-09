@@ -1,50 +1,69 @@
-🎓 University Enrollment System
+# 🎓 University Enrollment System
 
-A simple console-based university enrollment system built with Python.
+A simple **console-based university enrollment system** built with Python.
 
-This project was created to practice organizing a larger program into small, reusable functions while working with lists and dictionaries.
+This project was created to practice organizing a larger program into **small, reusable functions** while working with lists and dictionaries.
 
-✨ Features
-Feature	Description
-➕ Add Student	Add a new student with name, ID, and major
-👥 Show Students	Display all registered students
-🔍 Search Student	Find a student by student ID
-🗑️ Remove Student	Remove a student using their ID
-🚪 Exit	Close the application
-🖥️ Menu
+---
+
+## ✨ Features
+
+| Feature            | Description                                |
+| ------------------ | ------------------------------------------ |
+| ➕ Add Student      | Add a new student with name, ID, and major |
+| 👥 Show Students   | Display all registered students            |
+| 🔍 Search Student  | Find a student by student ID               |
+| 🗑️ Remove Student | Remove a student using their ID            |
+| 🚪 Exit            | Close the application                      |
+
+---
+
+## 🖥️ Menu
+
+```text
 1. Add student
 2. Show students
 3. Search student
 4. Remove student
 5. Exit
-🧠 Concepts Practiced
+```
+
+---
+
+## 🧠 Concepts Practiced
 
 This project focuses on the following Python concepts:
 
-Functions (def)
-Lists
-Dictionaries
-for loops
-while loops
-if / elif / else
-User input
-Type conversion with int()
-append()
-remove()
-Searching through a list of dictionaries
-Breaking a program into multiple functions
-🗂️ Data Structure
+* **Functions (`def`)**
+* **Lists**
+* **Dictionaries**
+* **`for` loops**
+* **`while` loops**
+* **`if / elif / else`**
+* **User input**
+* **Type conversion with `int()`**
+* **`append()`**
+* **`remove()`**
+* Searching through a list of dictionaries
+* Breaking a program into multiple functions
+
+---
+
+## 🗂️ Data Structure
 
 Each student is represented using a dictionary:
 
+```python
 {
     "name": "Ali",
     "student_id": 1234,
     "major": "Computer Engineering"
 }
+```
 
 Multiple students are stored inside a list:
 
+```python
 students = [
     {
         "name": "Ali",
@@ -52,10 +71,15 @@ students = [
         "major": "Computer Engineering"
     }
 ]
-⚙️ How It Works
+```
+
+---
+
+## ⚙️ How It Works
 
 The program is divided into four main functions:
 
+```text
 add_student()
       ↓
 Adds a new student
@@ -71,38 +95,44 @@ Searches by student ID
 remove_student()
       ↓
 Removes a student by ID
+```
 
-A while loop controls the main menu and allows the user to perform multiple operations until choosing Exit.
+A `while` loop controls the main menu and allows the user to perform multiple operations until choosing **Exit**.
 
-▶️ How to Run
+---
+
+## ▶️ How to Run
 
 Make sure Python is installed, then run:
 
+```bash
 python "08 - University enrollment functions.py"
-🚀 Future Improvements
+```
+
+---
+
+## 🚀 Future Improvements
 
 Possible improvements for future versions:
 
-Prevent duplicate student IDs
+* [ ] Prevent duplicate student IDs
+* [ ] Validate user input
+* [ ] Handle invalid inputs with `try/except`
+* [ ] Add an **Update Student** feature
+* [ ] Save student data to a file
+* [ ] Load existing data when the program starts
+* [ ] Improve the console interface
 
-Validate user input
+---
 
-Handle invalid inputs with try/except
+## 📚 Project Purpose
 
-Add an Update Student feature
+The main goal of this project was to practice **function decomposition** — taking a relatively larger program and dividing it into smaller functions, with each function responsible for one specific task.
 
-Save student data to a file
+This project is part of my ongoing **Python programming practice and portfolio development**.
 
-Load existing data when the program starts
+---
 
-Improve the console interface
+### 👩‍💻 Author
 
-📚 Project Purpose
-
-The main goal of this project was to practice function decomposition — taking a relatively larger program and dividing it into smaller functions, with each function responsible for one specific task.
-
-This project is part of my ongoing Python programming practice and portfolio development.
-
-👩‍💻 Author
-
-Narges
+**Narges**
